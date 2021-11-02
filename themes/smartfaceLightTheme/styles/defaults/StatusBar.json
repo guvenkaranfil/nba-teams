@@ -1,0 +1,10 @@
+{
+    ".sf-statusBar": {
+        "masksToBounds": true,
+        "android": {
+            "color": "#FFFFFF"
+        },
+        "style": "DEFAULT",
+        "visible": true
+    }
+}
