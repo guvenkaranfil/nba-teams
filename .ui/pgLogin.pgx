@@ -1,0 +1,172 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgLogin .padding-vertical",
+			"id": "e891b86d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"42b807d1",
+					"b7d28cff",
+					"01ee-3b7d-fae4-a0fe",
+					"e8d0-e028-be62-a7e2",
+					"80c4-be9c-a3f5-3e3b",
+					"0855-e9ce-5840-6caf",
+					"0cff-66df-b749-b9f8"
+				],
+				"isRemovable": true,
+				"name": "pgLogin",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"orientation": "PORTRAIT",
+				"safeAreaEnabled": true
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "42b807d1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e891b86d"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": true
+			}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "b7d28cff",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e891b86d",
+				"title": "Login"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Login",
+				"visible": false
+			}
+		},
+		{
+			"className": ".sf-label #pgLogin-lblLoginText",
+			"id": "01ee-3b7d-fae4-a0fe",
+			"props": {
+				"children": [],
+				"name": "lblLoginText",
+				"parent": "e891b86d",
+				"text": "Login",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "31XoZqypi",
+				"text": "Login",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".flexLayout .materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "e8d0-e028-be62-a7e2",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "mtbUsername",
+				"parent": "e891b86d",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "materialTextBox",
+				"id": "574a-10da-b765-48e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"testId": "GBgEp8H6g",
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".flexLayout .materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "80c4-be9c-a3f5-3e3b",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "mtbPassword",
+				"parent": "e891b86d",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "materialTextBox",
+				"id": "574a-10da-b765-48e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"testId": "2VkXyj8Sk",
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label #pgLogin-lblForgotPassword",
+			"id": "0855-e9ce-5840-6caf",
+			"props": {
+				"children": [],
+				"name": "lblForgotPassword",
+				"parent": "e891b86d",
+				"text": "Forgot Password?",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "cxb0GrKoG",
+				"text": "Forgot Password?",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button #pgLogin-btnLogin",
+			"id": "0cff-66df-b749-b9f8",
+			"props": {
+				"children": [],
+				"name": "btnLogin",
+				"parent": "e891b86d",
+				"text": "Login",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"testId": "lU2lMxhdz",
+				"text": "Login",
+				"usePageVariable": true
+			}
+		}
+	]
+}
